@@ -1,2 +1,9 @@
 # IMRmotionmodel
-Study of the mitral motion in healthy and IMR patients
+
+Study of the mitral motion in healthy and IMR patients.
+
+By modelling the left part of the heart, the aim of the present paper is to compare the haemodynamics of a healthy patient against a patient who suffers from Ischemic Mitral Regurgitation. Attention is focused on the mitral valve and on calculating the regurgitant volume, a strong assessment parameter of this disease severity.
+4D Mitral models provided by the University of Pennsylvania were joined to the remaining left heart components, the left atrium, left ventricle, and the aorta artery. Three different models were developed using the softwares Meshmixer and Meshlab, two for systole and one for diastole. Blood was assumed to be Newtonian, incompressible and isothermal, therefore its behavior was described by Navier-Stokes equations. The boundary conditions for the ventricular systole models were defined as velocity inlet for the pulmonary veins, and pressure outlet in the aorta, whereas for the ventricular diastole only a velocity inlet was applied, and the aorta was considered to have wall-behavior. Due to the diculty that carries the geometry coupling, models were considered motionless and isolated with respect to the others. All the simulations were run with ANSYS (Fluent) and Paraview was the chosen software for the post-processing.
+Three coupled models are successfully achieved with quite realistic physiological behavior(especially in systole) of the blood thought the left heart chambers. Due to the simplifications imposed in the model, the developed mathematical approach for the regurgitant volume calculations were not enough to determine the severity of the disease with this parameter.
+
+In this folder it is possible to find the stl models used for the simulations and the paper we have written.
